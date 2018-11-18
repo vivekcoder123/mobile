@@ -1,0 +1,778 @@
+@media only screen and (min-width:240px) and (max-width:350px) {
+
+  #myCarousel .carousel-image {
+    position: relative;
+    left: -8.5%;
+  }
+
+  #downloadImage {
+    position: relative;
+    top: -120px;
+  }
+  /* #firstlook{
+    position: relative;
+    top: -120px;
+  } */
+  #alignTextModal {
+    top: 0%;
+    padding-bottom: 4%;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width:345px) and (max-width:365px) {
+  #myCarousel .carousel-image {
+    position: relative;
+    left: -1.5%;
+  }
+}
+
+@media only screen and (min-width:366px) and (max-width:385px) {
+  #myCarousel .carousel-image {
+    position: relative;
+    left: 1.5%;
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:500px) {
+  #myCarousel .carousel-image {
+    position: relative;
+    left: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+
+  /*=========== customize ==============*/
+
+  input[type=checkbox] {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+  }
+
+      /* A Little Non-Selectable Magic */
+  label,
+    div.checkbox {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+    /* Default, Non Checked State */
+
+  div.checkbox {
+    display: inline-block;
+    background: green;
+    color: #FFF;
+  }
+
+    /* Checkbox Toggled Hack with Checked State as our Background Position */
+
+  input[type=checkbox]:checked ~ div.checkbox {
+    background-position: -14px 0px;
+    background: orange;
+    color: #000;
+  }
+
+  #shapesModal .shapesImage {
+    padding: 10%;
+    margin-bottom: 8%;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+
+  #shapesSettingModal {
+    width: 100%;
+  }
+
+  #imageSettingModal .realImageShapes {
+    float: right;
+    background: #445d6c;
+    border: none;
+    color: white;
+  }
+
+  #imageSettingModal .modal-dialog {
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #imageSettingModal .modal-header {
+    padding: 4px;
+    background: #445d6c;
+  }
+
+  #imageSettingModal #textsetting {
+    color: white;
+    font-weight: bold;
+  }
+
+  #shapesSettingModal .realdivShapes {
+    float: right;
+    background: #445d6c;
+    border: none;
+    color: white;
+  }
+
+  #shapesSettingModal .modal-dialog {
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #shapesSettingModal .modal-header {
+    padding: 4px;
+    background: #445d6c;
+  }
+
+  #shapesSettingModal #textsetting {
+    color: white;
+    font-weight: bold;
+  }
+
+  #shapesSettingModal .pointer {
+    cursor: pointer;
+  }
+
+  #textSettingModal {
+    width: 100%;
+  }
+
+  #textSettingModal .realdiv {
+    float: right;
+    background: #445d6c;
+    border: none;
+    color: white;
+  }
+
+  #textSettingModal .modal-dialog {
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+
+  #textSettingModal .aligntext {
+    color: grey;
+  }
+
+  #textSettingModal .benddiv {
+    padding: 20px;
+  }
+
+  #textSettingModal .fontstext {
+    max-height: 150px;
+    overflow: scroll;
+    font-weight: bold;
+  }
+
+  #textSettingModal .modal-body {
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  #shapesSettingModal .modal-body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #textSettingModal .modal-header {
+    padding: 4px;
+    background: #445d6c;
+  }
+
+  #textSettingModal #textsetting {
+    color: white;
+    font-weight: bold;
+  }
+
+  #alignTextModal {
+    background: #fff;
+    min-width: 100%;
+  }
+
+  #textSettingModal .dropup-content {
+    min-width: 100%;
+    max-width: 100%;
+    position: absolute;
+    bottom: 70px;
+    z-index: 99;
+  }
+
+  .modal-header {
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  #colorTextModal {
+    margin-bottom: 2%;
+    right: 0%;
+  }
+
+  #fontTextModal {
+    right: 0%;
+  }
+
+  #fontModalList {
+    max-height: 120px;
+    margin-bottom: 2%;
+    overflow: scroll;
+    font-weight: bold;
+  }
+
+  .dropup-font {
+    position: absolute;
+    bottom: 74px;
+    z-index: 99;
+    min-width: 100%;
+    background: white;
+  }
+
+  .btn-bs-file {
+    position: relative;
+  }
+
+  .btn-bs-file input[type="file"] {
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width: 0;
+    height: 0;
+    outline: none;
+    cursor: inherit;
+  }
+
+  #textSettingModal ul.striped-list > li:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+
+  #textSettingModal ul.striped-list > li {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 2%;
+  }
+
+  #textSettingModal ul.striped-list > li:last-child {
+    border-bottom: none;
+  }
+
+  #firstlook .buynow {
+    background-color: #0483c2;
+    color: white;
+  }
+
+  #textModal .canceldiv {
+    padding-right: 0px;
+  }
+
+  #textModal .applydiv {
+    padding-left: 0px;
+  }
+
+  #textModal .textModalbtn {
+    border-radius: 0px;
+  }
+
+  .well {
+    background: white;
+    margin-bottom: 0px;
+    padding: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .slidecontainer {
+    width: 100%;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #0483c2;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #0483c2;
+    cursor: pointer;
+  }
+
+
+
+
+    /* Liquid radio Button */
+  .custom-radios div {
+    display: inline-block;
+  }
+
+  .custom-radios input[type="radio"] {
+    display: none;
+  }
+
+  .custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  .custom-radios input[type="radio"] + label span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 44px;
+  }
+
+  .custom-radios input[type="radio"] + label span img {
+    opacity: 0;
+    transition: all .3s ease;
+  }
+
+  .custom-radios input[type="radio"]#color-1 + label span {
+    background-color: #2ecc71;
+  }
+
+  .custom-radios input[type="radio"]#color-2 + label span {
+    background-color: #3498db;
+  }
+
+  .custom-radios input[type="radio"]#color-3 + label span {
+    background-color: #f1c40f;
+  }
+
+  .custom-radios input[type="radio"]#color-4 + label span {
+    background-color: #e74c3c;
+  }
+
+  .custom-radios input[type="radio"]#color-5 + label span {
+    background-color: #000000;
+  }
+
+  .custom-radios input[type="radio"]#color-6 + label span {
+    background-color: #ffffff;
+  }
+
+  .custom-radios input[type="radio"]#color-7 + label span {
+    background-color: #ffe6cc;
+  }
+
+  .custom-radios input[type="radio"]#color-8 + label span {
+    background-color: #660066;
+  }
+
+  .custom-radios input[type="radio"]#color-9 + label span {
+    background-color: #4d1a00;
+  }
+
+  .custom-radios input[type="radio"]#color-10 + label span {
+    background-color: #66ffff;
+  }
+
+  .custom-radios input[type="radio"]#color-11 + label span {
+    background-color: #ff0000;
+  }
+
+  .custom-radios input[type="radio"]#color-12 + label span {
+    background-color: #993333;
+  }
+
+  .custom-radios input[type="radio"]#color-s-1 + label span {
+    background-color: #2ecc71;
+  }
+
+  .custom-radios input[type="radio"]#color-s-2 + label span {
+    background-color: #3498db;
+  }
+
+  .custom-radios input[type="radio"]#color-s-3 + label span {
+    background-color: #f1c40f;
+  }
+
+  .custom-radios input[type="radio"]#color-s-4 + label span {
+    background-color: #e74c3c;
+  }
+
+  .custom-radios input[type="radio"]#color-s-5 + label span {
+    background-color: #000000;
+  }
+
+  .custom-radios input[type="radio"]#color-s-6 + label span {
+    background-color: #ffffff;
+  }
+
+  .custom-radios input[type="radio"]#color-s-7 + label span {
+    background-color: #ffe6cc;
+  }
+
+  .custom-radios input[type="radio"]#color-s-8 + label span {
+    background-color: #660066;
+  }
+
+  .custom-radios input[type="radio"]#color-s-9 + label span {
+    background-color: #4d1a00;
+  }
+
+  .custom-radios input[type="radio"]#color-s-10 + label span {
+    background-color: #66ffff;
+  }
+
+  .custom-radios input[type="radio"]#color-s-11 + label span {
+    background-color: #ff0000;
+  }
+
+  .custom-radios input[type="radio"]#color-s-12 + label span {
+    background-color: #993333;
+  }
+
+  .custom-radios input[type="radio"]:checked + label span img {
+    opacity: 1;
+  }
+
+  .custom-radios input[type="radio"]#color-s-1 + label span {
+    background-color: #2ecc71;
+  }
+
+  .custom-radios input[type="radio"]#color-s-2 + label span {
+    background-color: #3498db;
+  }
+
+  .custom-radios img {
+    margin-bottom: 60%;
+  }
+
+    /* End liquid radio button */
+
+
+  .logo {
+    margin-bottom: 5%;
+  }
+
+  .close-customization {
+    margin-top: 15px;
+  }
+
+  /* Carousel controls */
+  .carousel-control.left, .carousel-control.right {
+    background: none !important;
+  }
+
+  #myCarousel .carousel-image {
+    margin-left: 0%;
+  }
+  /* Carousel arrows previous and next */
+  a>i {
+    margin-top: 320%;
+    font-weight: bold;
+    color: blue;
+  }
+
+  button.close-customization {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+  }
+
+  .close-customization {
+    float: right;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    color: #FFF;
+  }
+
+  .tabs {
+    color: #4d8cf2;
+  }
+
+  #firstlook .column-tabs {
+    border: 1px solid #337ab7;
+    padding: 2%;
+    cursor: pointer;
+  }
+
+  #textModal .textButton {
+    display: inline-block;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  #textModal .self-modal {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #fontModal ul>li {
+    cursor: pointer;
+  }
+
+/* Common Rule  */
+
+  .modal-content {
+    border-radius: 0px;
+  }
+
+  .modal-backdrop {
+    background: none;
+  }
+
+  .nav-pills>li {
+    padding: 0px;
+    margin-right: -2px;
+    border: 1px solid #6298ef;
+    cursor: pointer;
+  }
+
+  .nav-pills>li>a {
+    border-radius: 0px;
+  }
+
+  .nav>li>a {
+    padding: 4%;
+  }
+
+  .activemanual {
+    background-color: #0483c2;
+    color: white;
+  }
+
+  .activemanualtext>i {
+    color: #0483c2;
+  }
+
+  .activemanualtext>p {
+    color: #0483c2;
+  }
+
+  .close {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  #tryshapes .modal {
+    bottom: initial!important;
+  }
+
+  #trytext .modal {
+    bottom: initial!important;
+  }
+
+  #tryimages .modal {
+    bottom: initial!important;
+  }
+
+  /* End Common Rule */
+
+  #textSettingModal .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+  }
+
+  #textSettingModal .port-item {
+    font-size: 12px;
+    padding: 2%;
+    border: 1px solid;
+  }
+
+  #textModal textarea {
+    height: 120px;
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+    border: none;
+    font-weight: bold;
+  }
+
+  #textModal #outline-btn {
+    border: 2px solid #809fff;
+    background: white;
+    color: grey;
+    width: 119%;
+    font-weight: bold;
+  }
+
+  #textModal #blue-btn {
+    background-color: #809fff;
+    color: white;
+    padding: 11px;
+    font-weight: bold;
+  }
+
+  #shapesModal .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #shapesModal .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
+
+  #imagesModal .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #imagesModal .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
+
+  #buyNowModal .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #buyNowModal .modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
+
+  #editorContainer {
+    height: 480px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /*=========== customize ==============*/
+
+  .logo>img {
+    height: 250%;
+  }
+
+  #myCarousel a>i {
+    position: relative;
+    margin-top: 150%;
+    font-weight: bold;
+    color: blue;
+  }
+
+  #myCarousel .carousel-image {
+    margin-left: 25%;
+  }
+
+  #textModal textarea {
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    resize: none;
+    border: none;
+    overflow: auto;
+    font-weight: bold;
+  }
+
+  #textModal .modal-dialog {
+    height: auto;
+    width: 90%;
+    margin-left: 38px;
+    padding: 0px;
+  }
+
+  .modal-header {
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  #colorTextModal {
+    margin-bottom: 2%;
+    right: 0%;
+  }
+
+  #fontTextModal {
+    right: 0%;
+  }
+
+  #fontModalList {
+    max-height: 180px;
+    margin-bottom: 0%;
+    overflow: scroll;
+    font-weight: bold;
+  }
+
+  #textSettingModal .dropup-content {
+    min-width: 100%;
+    max-width: 100%;
+    position: absolute;
+    z-index: 99;
+  }
+
+  #textSettingModal .well {
+    background: white;
+    padding: 4%;
+    position: relative;
+    right: 0%;
+  }
+
+  #shapesSettingModal .modal-body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  #bendTextModal {
+    margin-bottom: 5%;
+  }
+
+  #alignTextModal {
+    margin-bottom: 4%;
+  }
+}
